@@ -129,7 +129,7 @@ Install the following tools:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/SecurePDF.git
+git clone https://github.com/https://github.com/pratham-bits/SecurePDF/SecurePDF.git
 cd SecurePDF
 ```
 
