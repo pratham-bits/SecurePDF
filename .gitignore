@@ -1,0 +1,122 @@
+# Python and FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.uv-cache/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# VS Code and other editor files
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Node and frontend artifacts
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Generated files and operating-system metadata
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Local development file storage
+backend/storage/
+
+
+# Local databases and database artifacts
+*.db
+*.sqlite
+*.sqlite3
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# PDF test data and generated documents
+# Keep all local uploads and redacted artifacts out of Git.
+*.pdf
+*.pdf.*
+
+# Python test and tooling artifacts
+.pytest_cache/
+.tox/
+.nox/
+.cache/
+
+# Local environment files (root and nested folders)
+**/.env
+**/.env.*
+!**/.env.example
+
+
+# Local databases and database artifacts
+*.db
+*.sqlite
+*.sqlite3
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# PDF files: local test inputs and generated output
+*.pdf
+*.pdf.*
+
+# Python test and tooling artifacts
+.tox/
+.nox/
+.cache/
+
+# Environment files in any directory
+**/.env
+**/.env.*
+!**/.env.example
+tests/celery_retry_probe.py
